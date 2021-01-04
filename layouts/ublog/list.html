@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<style type="text/css">
+    .item {
+        line-height: 1.8rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        margin-top: 20px;
+        border-top: 12px solid;
+        text-align: justify;
+    }
+	
+    .item a {
+        text-decoration: none;
+        color: #5dafd5;
+    }
+    
+    time {
+        font-weight: 100;
+		color: #bbb;
+    }
+
+</style>
+
+
+<html>
+{{ partial "header.html" . }}
+
+<body>
+	<div class="container wrapper list">
+		{{ partial "head.html" . }}
+
+		{{ if isset .Data "Term" }}
+			<h2>{{ .Data.Term }}</h2>
+		{{ else }}
+		<h2 class="page-title">{{ .Name }}</h2>
+		{{ end }}
+		
+		{{ .Content }}
+
+		<ul class="posts flat">
+			{{- range .Data.Pages -}}
+			{{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
+			{{- else -}}
+			<section class="item">
+				{{ .Content }}
+				<time>
+					{{ dateFormat "2006-01-02 15:04" .Date }}
+				</time>
+			</section>
+
+			<!-- <li class="post">
+				<div class="post-header">
+					<div class="meta">
+						<div class="date">
+							<span class="rest">
+								{{ if $.Site.Data.month }}
+								{{ index $.Site.Data.month (printf "%d" .Date.Month) }} {{ .Date.Year }}
+								{{ else }}{{ dateFormat "2006-01-02 15:04" .Date }}
+								{{ end }}
+							</span>
+						</div>
+					</div>
+					<div class="matter">
+						<span class="description">
+							{{ .Content }}
+						</span>
+					</div>
+				</div>
+			</li> -->
+			{{- end -}}
+			{{- end -}}
+		</ul>
+	</div>
+
+	{{ partial "footer.html" . }}
+</body>
+
+</html>

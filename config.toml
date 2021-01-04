@@ -1,4 +1,5 @@
-baseURL = "http://tirelesstinkerer.org/"
+#baseURL = "http://tirelesstinkerer.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "The Tireless Tinkerer"
 theme = "hugo-ink"
