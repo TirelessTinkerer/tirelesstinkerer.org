@@ -1,7 +1,7 @@
 #baseURL = "http://tirelesstinkerer.org/"
 baseURL = "/"
 languageCode = "en-us"
-title = "The Tireless Tinkerer"
+title = "Tireless Tinkerer"
 theme = "hugo-ink"
 paginate = 5
 
@@ -42,7 +42,7 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "micro Posts"
+name = "μPosts"
 url = "/ublog"
 weight = 3
 
