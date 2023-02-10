@@ -1,7 +1,6 @@
 ---
 title: "Internet Is Beautiful"
 date: 2023-02-08T16:29:50-08:00
-draft: true
 ---
 
 Over 20 years ago when I was in high school, a buddy of mine once told me what a dream day would be like: stay at home playing PC games and surfing the internet. At that time, internet was just introduced to our town, and having internet access at home was beyond our wildest dream. Only the cool and rich kids could afford to go to an internet cafe to "surf" and "online" chat with other cool and rich kids.
@@ -44,7 +43,7 @@ Again, history proved that my stupidity was not a coincidence but something deep
 
 However, I have always been a consumer of the internet, thinking one day I'll learn all I need and then start to contribute. The desire of contributing has been postponed again and again every time I have an idea. Sadly I feel I'll never learn to the level I want to be to create. 
 
-Recently I've been inspired by a website called [thisiget.com](thisiget.com). It's an interactive math learning website I found and introduced to my son. The quality of the content and the technology to create the interative totally blew my mind. More importantly, I happen to know the creator of it personally. He must have put a ton of effort to create this website and he made all these high quality education content free. This is one of the many things he would leave to the world.
+Recently I've been inspired by a website called [thisiget](https://www.thisiget.com). It's an interactive math learning website I found and introduced to my son. The quality of the content and the technology to create the interative totally blew my mind. More importantly, I happen to know the creator of it personally. He must have put a ton of effort to create this website and he made all these high quality education content free. This is one of the many things he would leave to the world.
 
 Probably I would never be able to create something as great as his website. But if I want, and yes I want, I need to start now. So, as a ritual all people who loves programming will do:
 
