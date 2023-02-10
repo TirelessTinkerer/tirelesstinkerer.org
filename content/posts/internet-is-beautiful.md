@@ -12,7 +12,7 @@ When my friend tried to explain to me how cool it was to online chat with other 
 
 "Right!"
 
-"Those people on the other side of the internet need to be also *online**, right?"
+"Those people on the other side of the internet need to be also *online*, right?"
 
 "Correct!"
 
